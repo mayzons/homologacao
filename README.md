@@ -1,1 +1,1 @@
-http:mayzons.homologacao.io
+https://mayzons.github.io/homologacao/
