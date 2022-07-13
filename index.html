@@ -5,7 +5,7 @@
 			<font size="3"> 
 			<font face="Times New Roman"></font> 
 			<font color="BLACK"> 
-<!--		<text=#"background: rgb(255,0,0)> -->
+			<text=#"background: rgb(255,0,0)>
 			<title>Homolocação</title>
 			<link rel="shortcut icon" href="logo-semparar.png"></center>
 		<head>
@@ -19,215 +19,183 @@
 		<th colspan="2"><h2>POSTOS EM HOMOLOGAÇÃO</h2></th>
 	<tr>	
 	<br>
+<HTML>
+<HEAD>
+<TITLE>Exibindo a data da última alteração</TITLE>
+ 
+<script type="text/JavaScript" language="JavaScript">
+  function date_ddmmmyy(date){
+    var d = date.getDate();
+    var m = date.getMonth() + 1;
+    var y = date.getYear();
+ 
+    var mmm = 
+    ( 1==m)?'Jan':( 2==m)?'Fev':(3==m)?'Mar':( 4==m)?'Abr':( 5==m)?'Mai':(6==m)?'Jun':
+    ( 7==m)?'Jul':( 8==m)?'Ago':(9==m)?'Set':(10==m)?'Out':(11==m)?'Nov':'Dez';
+ 
+    return "" + (d<10?"0"+d:d) + "/" + mmm + "/" + (y<10?"0"+y:y);
+  }
+ 
+ function date_lastmodified(){
+    var md = document.lastModified;
+    var s = "Desconhecida";
+    var d1
+ 
+    if(0 != (d1=Date.parse(md))){
+       s = "" + date_ddmmmyy(new Date(d1));
+    }
+    return s;
+  }
+</script>
 
-	<table border="2" align="center" width="60%">	
+</HEAD>
+<BODY>
+ 
+<script type="text/JavaScript" language="JavaScript">
+  document.write("Última Atualização: " + 
+    date_lastmodified());
+</script>
+ 
+</BODY>
+</HTML>	
+	
+
+	<table border="2" align="center" width="95%">	
 		<br>
 		<div style="text-align: center;"> <p><b><h2> Postos NOVPN</h2> </b> </p> </div>
 		<tr>
-			<th>Posto</td>
-			<th>Homolocação</td>
-			<th>Responsável</td>
-			<th>1° Contato</td>
-			<th>Descrição</td>
-			<th>Link</td>		
+			<th>Posto</td> <th>Homolocação</td> <th>Responsável</td> <th>1° Contato</td> <th>Descrição</td> <th>Link</td>		
 		</tr>
 		<tr>
-			<td>8519 - V4 NUC Posto  Shell NACOES UNIDAS</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/y78cb2x2gj29u0o7079l5q9jqy525n7mtf9cw7v2.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>8519 - V4 NUC Posto  Shell NACOES UNIDAS</td> <td>NOVPN</td><td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/y78cb2x2gj29u0o7079l5q9jqy525n7mtf9cw7v2.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>
 		<tr>
-			<td>70133 - V4 NUC Posto SUPER BUTANTA</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/wp5z49439i8xg93pie4re9g0ucjb6b18670v22yf.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>70133 - V4 NUC Posto SUPER BUTANTA</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td>	<td><span><a href="https://www.dwservice.net/wp5z49439i8xg93pie4re9g0ucjb6b18670v22yf.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>
 		<tr>
-			<td>6987 - V4 NUC Posto Shell RANGER</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/vlo5w7mv76h8qy06x4u59zp84ss3m2501jrlcgg6.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>6987 - V4 NUC Posto Shell RANGER</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/vlo5w7mv76h8qy06x4u59zp84ss3m2501jrlcgg6.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>
 		<tr>
-			<td>6869 - V4 NUC Posto Shell Jardim das Bandeiras</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/8uioypd3ftnc516i0tr4tyopp2o242101wn8e327.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>6869 - V4 NUC Posto Shell Jardim das Bandeiras</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td>	<td><span><a href="https://www.dwservice.net/8uioypd3ftnc516i0tr4tyopp2o242101wn8e327.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>
 		<tr>
-			<td>7288 - V4 NUC Posto BR ILHA DO SOL EXPRESS WASH</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/6949zuk38dzkc27v1dp0s6x1ygxf87b7e25pu7xv.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>7288 - V4 NUC Posto BR ILHA DO SOL EXPRESS WASH</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/6949zuk38dzkc27v1dp0s6x1ygxf87b7e25pu7xv.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>
 		<tr>
-			<td>70043 - V4 NUC POSTO IMPERATRIZ</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/94ya7me3r99vgqf1351c01ddpk817jx2t5x7h5ya.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>70043 - V4 NUC POSTO IMPERATRIZ</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/94ya7me3r99vgqf1351c01ddpk817jx2t5x7h5ya.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>
 		<tr>
-			<td>72131 - V4 NUC Posto  Shell K2</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/59m6vdq954jh06576ejz240k140w379fah6fkaue.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>72131 - V4 NUC Posto  Shell K2</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td>	<td><span><a href="https://www.dwservice.net/59m6vdq954jh06576ejz240k140w379fah6fkaue.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>	
 		<tr>
-			<td>7203 - V4 NUC Posto BR Mingo - V4 NUC</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/a9y07e1mhsxzq105nd433405603dh059z0wug490.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>7203 - V4 NUC Posto BR Mingo - V4 NUC</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/a9y07e1mhsxzq105nd433405603dh059z0wug490.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>	
 		<tr>
-			<td>7203 - SPP Posto BR Mingo</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/dqjs43z7sz0t329s2t0s03nhd7l90ozfl7p7nr8k.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>7203 - SPP Posto BR Mingo</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/dqjs43z7sz0t329s2t0s03nhd7l90ozfl7p7nr8k.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>	
 		<tr>
-			<td>6127 - V4 NUC Posto  Shell OSASCO COUNTRY</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/k4m4zpuor83q6lyvde9u29pdv64lv1a1d6vw1n0q.dlk" target="_blank">Link de acesso ao posto </a></td>		
+			<td>6127 - V4 NUC Posto  Shell OSASCO COUNTRY</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/k4m4zpuor83q6lyvde9u29pdv64lv1a1d6vw1n0q.dlk" target="_blank">Link de acesso ao posto </a></td>		
 		</tr>	
 		<tr>
-			<td>6794 - V4 NUC Posto Shell Ponte Metalica</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/d66158ggm4z20z11fll6vb39ce0p5168ovl7157e.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>6794 - V4 NUC Posto Shell Ponte Metalica</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/d66158ggm4z20z11fll6vb39ce0p5168ovl7157e.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>	
 		<tr>
-			<td>6299 - V4 NUC Posto Shell Dar A - V4 NUC </td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/q4hj6603ij785366apomvz941m42y4h4c2m6w0mn.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>6299 - V4 NUC Posto Shell Dar A - V4 NUC </td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/q4hj6603ij785366apomvz941m42y4h4c2m6w0mn.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>	
 		<tr>
-			<td>70112 - V4 NUC Posto MARES DO SUL</td>
-			<td>NOVPN</td>
-			<td>Luiz Talamonte</td>
-			<td>Suporte Nava</td>
-			<td>Posto em teste de conexão fora da VPN</td>	
-			<td><span><a href="https://www.dwservice.net/xrup05lqr0f05ih65728a35o2xb3g5k83d2oh74l.dlk" target="_blank">Link de acesso ao posto </a></td>			
+			<td>70112 - V4 NUC Posto MARES DO SUL</td> <td>NOVPN</td> <td>Luiz Talamonte</td> <td>Suporte Nava</td> <td>Posto em teste de conexão fora da VPN</td> <td><span><a href="https://www.dwservice.net/xrup05lqr0f05ih65728a35o2xb3g5k83d2oh74l.dlk" target="_blank">Link de acesso ao posto </a></td>			
 		</tr>	
 	</table>
 <html>
 <html>
+	</table>
 	<div style="text-align: center;"> <p><b><h2> Valida Abastece</h2> </b> </p> </div>
 			
-				<table border="2" align="center" width="60%">
+				<table border="2" align="center" width="95%">
 		<tr>
-			<td>Posto</td>
-			<td>Homolocação</td>
-			<td>Responsável</td>
-			<td>Dúvidas</td>
-			<td>Descrição</td>
-			<td>Acesso</td>		
+			<td>Posto</td> <td>Homolocação</td> <td>Responsável</td> <td>Dúvidas</td> <td>Descrição</td> <td>Acesso</td>		
 		</tr>
 		<tr>
-			<td>6351 - V2 Posto Shell Jupia - V2</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.48.98/99</td>			
+			<td>6351 - V2 Posto Shell Jupia - V2</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.48.98/99</td>			
 		</tr>
 		<tr>
-			<td>6864 - V2 Posto Shell Nick - V2</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.62.202/203</td>			
+			<td>6864 - V2 Posto Shell Nick - V2</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.62.202/203</td>			
 		</tr>
 		<tr>
-			<td>7004 Posto BR Objetivo</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.75.106/107</td>			
+			<td>7004 Posto BR Objetivo</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.75.106/107</td>			
 		</tr>
 		<tr>
-			<td>7096 Posto BR Parque das Rosas</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.74.58/59</td>			
+			<td>7096 Posto BR Parque das Rosas</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.74.58/59</td>			
 		</tr>
 		<tr>
-			<td>7116 Posto BR Portal da Praia</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.74.42/43</td>			
+			<td>7116 Posto BR Portal da Praia</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.74.42/43</td>			
 		</tr>
 		<tr>
-			<td>7182 Posto BR Anhembi</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.50.26/27</td>			
+			<td>7182 Posto BR Anhembi</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.50.26/27</td>			
 		</tr>
 		<tr>
-			<td>7217 Posto BR FGN</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.48.42/43</td>			
+			<td>7217 Posto BR FGN</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.48.42/43</td>			
 		</tr>	
 		<tr>
-			<td>7235 - V2 Posto BR Thiago - V2</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.31.74/75</td>			
+			<td>7235 - V2 Posto BR Thiago - V2</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.31.74/75</td>			
 		</tr>
 		<tr>
-			<td>8003 Posto Carrefour Limão</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.50.66/67</td>			
+			<td>8003 Posto Carrefour Limão</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.50.66/67</td>			
 		</tr>	
 		<tr>
-			<td>8509 Posto Boxter Beach Blue</td>
-			<td>Valida Abastece</td>
-			<td>Ricgard Dias Gondinho</td>
-			<td>Suporte Nava</td>
-			<td>Versão do valida para correção das desconexões no client do SLT. </td>	
-			<td>172.25.74.250/251</td>			
+			<td>8509 Posto Boxter Beach Blue</td> <td>Valida Abastece</td> <td>Ricgard Dias Gondinho</td> <td>Suporte Nava</td> <td>Versão do valida para correção das desconexões no client do SLT. </td> <td>172.25.74.250/251</td>			
 		</tr>		
 	</table>
+	</table>
+	<div style="text-align: center;"> <p><b><h2> Presveic</h2> </b> </p> </div>
+			
+				<table border="2" align="center" width="95%">
+		<tr>
+			<td>Posto</td> <td>Homolocação</td> <td>Responsável</td> <td>1° Contato</td> <td>Descrição</td> <td>Acesso</td>		
+		</tr>
+		<tr>
+			<td>70308 - V4 NUC Posto  BOI CAMPEÃO </td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.68.74</td>			
+		</tr>	
+		<tr>
+			<td>72198 - V4 NUC Posto  Shell PORTAL DO PARAISO</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.68.82</td>			
+		</tr>
+		<tr>
+			<td>70279 - V4 NUC Posto MILAO</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.70.18</td>			
+		</tr>		
+		<tr>
+			<td>72197 - V4 NUC Posto Shell  OLIMPIA BANDEIRANTES</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.70.162</td>			
+		</tr>
+		<tr>
+			<td>75180 - V4 NUC Posto  Ipiranga RECANTO DA VITORIA</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.70.154</td>			
+		</tr>
+		<tr>
+			<td>70128 - V4 NUC Posto PORTO SEGURO</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.43.114</td>			
+		</tr>
+		<tr>
+			<td>72134 - V4 NUC Posto  Ipiranga  RUBY </td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.60.90</td>			
+		</tr>
+		<tr>
+			<td>7490 - V4 NUC Posto BR REGIS </td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.70.210</td>			
+		</tr>
+		<tr>
+			<td>70281 - V4 NUC Posto  DO SINO</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.69.162</td>			
+		</tr>		
+		<tr>
+			<td>72199 - V4 NUC Posto MIRIZOLA</td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.66.154</td>			
+		</tr>		
+		<tr>
+			<td>7470 - V4 NUC Posto  BR  VITRINE II </td> <td>Presveic</td> <td>Murilo Almeida</td> <td>Suporte Nava</td> <td>Posto sem sensor, a presença é detectada pela câmera.</td> <td>172.25.68.98</td>			
+		</tr>
+		
+<body>
+  <table cellspacing="5" align="right">
+  <!-- <table align="center"><tr><td> -->
+  <!--    <div style="text-align: right;"> <p><b> Mayzon C. Santos -- Todos os direitos reservados, 2021 © </b> </p> </div> -->
+   <div style="text-align: right;"> <p><b> Mayzon C. Santos - (11) 9.4044-9239 e-mail: mayzon.santos@fleetcor.com.br </b> </p> </div>
+ <!--    <a href="http://www.htmlprogressivo.net/">Curso HTML Progressivo</a>, todos os direitos reservados, 2013 © -->
+  </td></tr></table>
+ </body>
+<br>
+<br>
+
 <html>	
